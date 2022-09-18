@@ -1,0 +1,212 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: white;
+  width: 98%;
+}
+
+.flex-container-one {
+  background-image: url(img/código-de-la-escritura-de-java-en-la-pantalla-negra-96561817.jpg);
+  background-repeat: no-repeat;
+  background-position: center-top;
+  background-size: 100%;
+  color: #fff;
+}
+
+.equipo {
+  font-size: 40px; 
+}
+
+.desarrollo {
+  font-size: 30px;
+}
+
+.pitems2 {
+  margin-bottom: 5px;
+  font-size: 20px;
+  margin-left: 105px;
+  letter-spacing: 0.1em;
+  font-size: x-large;
+}
+.contactar {
+  border-radius: 10%;
+  margin-top: 5px;
+  margin-left: 100px;
+  padding: 6px 30px;
+  background-color: rgb(53, 196, 254);
+  color: #fff;
+  font-size: 18px;
+}
+.telefono1 {
+  margin-top: 20px;
+  margin-right: 100px;
+}
+.flex-container-one__items1 {
+  display: flex;
+  justify-content: center;
+}
+.imgitems1 {
+  height: 50px;
+  padding: 10px;
+}
+.flex-container-one > hr {
+  border: 1px solid #fff;
+  margin: 0px 100px;
+}
+.flex-container-one__items2 > img {
+  height: 200px;
+}
+.flex-container-one__items2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.grid-container-two {
+  background-color: rgb(53, 196, 254);
+  display: flex;
+  color: #fff;
+  width: 100%;
+  justify-content: center;
+
+}
+.grid-container-two__pt1 {
+  width: 50%;
+  margin: 15px;
+}
+.grid-container-two__pt2 {
+  width: 50%;
+  margin: 15px;
+  
+}
+.grid-container-two__pt1>p {
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  text-align: right;
+  font-weight: bold;
+  margin-right: 10px;
+  
+}
+.grid-container-two__pt2>img {
+  width: 180px;
+  object-fit: cover;
+  margin-top: 10px;
+}
+
+.grid-container-three {
+  display: flex;
+  justify-content: space-evenly;
+  background: #fff;
+  width: 100%;
+}
+.grid-container-three__pt1 {
+  width: 50%;
+  margin-top: 30px;
+  margin-left: 40px;
+  background: #fff;
+  display: flex;
+}
+
+.caja-three__pt1{
+  color: blue;
+  margin: 15px;
+  font-weight: bold;
+  margin-left: 8px;
+  margin-bottom: 40px;
+  letter-spacing: 1px;
+}
+
+.img-three_pt1 {
+  object-fit: cover;
+  height: 40px;
+  margin-top: 32px;
+  margin-left: 40px;
+  
+}
+li {
+  color: rgb(53, 196, 254);
+  margin: 10px;
+  padding: 4px;
+}
+.grid-container-three__pt2 {
+  width: 50%;
+  background: rgb(208, 218, 225);
+  display: flex;
+  }
+.caja-three__parrafo {
+  color: blue;
+  margin-top: 63px;
+  margin-left: 6px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+.img-three_pt2 {
+    width: 50px;
+    height: 40px;
+    margin-top: 63px;
+    margin-left: 100px;
+  }
+
+  .iframe-three {
+  background: url(img/landing-fullscreen\ copia.jpg);
+  width: 360px;
+  height: 210px;
+  background-repeat: no-repeat;
+  }
+
+.form {
+  background: rgb(14, 77, 162);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  height: 210px;
+}
+.form-pt1 {
+width: 50%;
+position: relative;
+}
+.form-pt1>p {
+  text-align: right;
+  padding: 5px;
+  margin-right: 130px;
+  margin-top: -30px;
+  font-size: 25px;
+  letter-spacing: 0.1em;
+}
+.form-pt1>p>b {
+  margin-left: 285px;
+}
+.img-form__pt1 {
+ width: 100px;
+ margin-top: 45px;
+ margin-left: 480px;
+}
+.form-pt2 {
+width: 50%;
+}
+.caja-form {
+  margin-top: 10px;
+  margin-left: 10px;
+  display:inline-block;
+}
+.img-div{
+  width: 20px;
+}
+.input-div {
+  background: rgb(14, 77, 162);
+  border: none;
+}
+.hijocaja-form {
+ 
+  border-radius: 15px #fff;
+  border-color: 1px solid;
+}
+
+.footer {
+  display: flex;
+  background: rgb(208, 218, 225);
+
+}
+
