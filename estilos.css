@@ -142,7 +142,7 @@ p.pitems2 {
 .img-three_pt1 {
   object-fit: cover;
   height: 50px;
-  margin-top: 32px;
+  margin-top: 15px;
   margin-left: 40px;
   
 }
@@ -163,7 +163,7 @@ li {
   }
 .caja-three__parrafo {
   color: #000;
-  margin-top: 70px;
+  margin-top: 55px;
   margin-left: 6px;
   font-weight: bold;
   letter-spacing: 0.1em;
@@ -173,7 +173,7 @@ li {
 .img-three_pt2 {
     width: 50px;
     height: 40px;
-    margin-top: 70px;
+    margin-top: 60px;
     margin-left: 100px;
   }
 
