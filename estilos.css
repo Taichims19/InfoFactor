@@ -40,6 +40,7 @@ p.pitems2 {
 .contactar {
   position: relative;
   left: 110px;
+  top: 15px;
   border-style: solid;
   border-width: 5px;
   border-radius: 10px;
@@ -53,9 +54,21 @@ p.pitems2 {
   border: none;
   background-color: rgb(1,176,243);
   transition: all;
-  transition-duration: 1.5s;
+  transition-duration: 1s;
 }
 
+.contactar:hover{
+  border-style: solid;
+  border-width: 3px;
+  border-color:rgb(1,176,243); 
+  text-align: center;
+  font-size: 13px;
+  color: rgb(1,176,243);
+  background-color: white;
+  transition: all;
+  transition-duration: 1.5s;
+  
+}
 .flex-container-one__items1 {
   display: flex;
   justify-content: space-around;
@@ -418,4 +431,80 @@ align-items: center;
 .footer2img2 {
   height: 16px;
   padding-right: 8px;
+}
+@media only screen and (min-width:768px) and (max-width: 1024px) {
+
+  /* body {
+    display: none;
+  } */
+  .flex-container-one {
+    width: 100%;
+    height: 297px;
+
+  }
+  .pitems2,.desarrollo,.equipo {
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+  .pitems2 {
+    margin-top: 30px !important;
+  }
+  
+  input.contactar {
+    padding: 5px;
+   height: 25px;
+   
+  }
+  .telefono1 {
+    position: relative;
+    right: 60px;
+    top: 40px;
+    width: 300px;
+  }
+  .grid-container-two {
+    width: 100%;
+  }
+  .grid-container-two__pt2>img {
+    position: relative;
+    left: 30px;
+  }
+  .grid-container-three {
+    width: 100%;
+  }
+  .caja-three__parrafo {
+    position: relative;
+    right: 50px;
+  }
+  .img-three_pt2 {
+    position: relative;
+    right: 50px;
+  }
+  iframe {
+    position: relative;
+    right: 70px;
+    top: 20px;
+  }
+  .caja-form {
+    width: 100%;
+  }
+  .contenedor-form {
+    position: relative;
+    left: -15px;
+  }
+  .caja-form-1 {
+    position: relative;
+    right: 270px;
+  }
+  footer {
+    width: 100%;
+  }
+
+  .caja-footer1 {
+    position: relative;
+    right: 90px;
+  } 
+  .caja-footer2 {
+    position: relative;
+    left: 30px;
+  } 
 }
