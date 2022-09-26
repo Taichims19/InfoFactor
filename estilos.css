@@ -505,6 +505,169 @@ align-items: center;
   } 
   .caja-footer2 {
     position: relative;
-    left: 30px;
+    left: 15px;
+    padding-left: 50px;
+    width: max-content;
   } 
+}
+@media only screen and (min-width:572px) and (max-width: 767px) {
+
+  .flex-container-one {
+    width: 100%;
+    background-size: cover;
+    height: 300px;
+  }
+  .equipo {
+    font-size: 18px;
+  }
+  .desarrollo {
+    font-size: 18px;
+  }
+  .pitems2 {
+    font-size: 16px;
+  }
+  p.pitems2 {
+    margin-top: 10px;
+  }
+  .contactar {
+    font-size: 12px;
+    padding: 0px 8px;
+    margin: 1px;
+    height: 30px;
+  }
+  .telefono1 {
+    position: relative;
+    top: 86px;
+    right: 100px;
+    width: 220px;
+  }
+  .flex-container-one__items2 {
+    height: max-content;
+  }
+  .grid-container-two {
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+  }
+  .grid-container-two__pt1 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  .grid-container-two__pt1>p {
+    font-size: 16px;
+    margin: 0px 20px;
+
+  }
+  .grid-container-two__pt2 {
+    width: 100%;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 8px 0px; 
+    background: rgb(56, 166, 252);
+    display: flex;
+    justify-content: center;
+  }
+  .grid-container-three {
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    
+  }
+  .grid-container-three__pt1 {
+    width: 100%;
+    font-size: 13px;
+    display: flex;
+    margin-left: 0px;
+    justify-content: center;
+  }
+  .img-three_pt1 {
+    margin-left: 2px;
+  }
+  
+  li {
+    font-size: 13px;
+  }
+ .grid-container-three__pt2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+ }
+ .img-three_pt2 {
+ margin-left: 30px;
+ margin-top: 30px;
+ }
+ .caja-three__parrafo {
+  margin-top: 30px;
+ }
+ .caja-form {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+ }
+ .caja-form-1 {
+  width: 100%; 
+  margin: 40px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+.form-1__img {
+  display: flex;
+    justify-content: center;
+}
+.engranaje {
+  position: inherit;
+ 
+}
+.form-1__texto>p {
+  position: inherit;
+}
+.form-1__texto {
+ width: max-content;
+}
+.requerimiento {
+  position: inherit;
+}
+
+ .caja-form-2 {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+ }
+footer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.caja-footer1 {
+  width: 100%;
+  position: inherit;
+  margin-top: 20px;
+  justify-content: space-around;
+}
+.cocolombia {
+  position: inherit;
+  padding: 20px;
+}
+.fedesoft {
+  position: inherit;
+  padding: 20px;
+}
+.somos {
+  position: inherit;
+  padding: 20px;
+}
+.caja-footer2 {
+  width: 100%;
+  position: inherit;
+  margin: 20px;
+  justify-content: space-around;
+}
+
 }
