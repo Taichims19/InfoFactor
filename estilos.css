@@ -88,8 +88,9 @@ p.pitems2 {
 .cajaitems2 {
   width: 50%;
 }
-.cajaitmes2-2 {
-  height: 200px;
+.cajaitems2-2 {
+  height: 100vv;
+  display: flex;
   width: 50%;
 }
 .telefono1 {
@@ -191,10 +192,8 @@ li {
   }
 
   iframe {
-  background: url(img/landing-fullscreen\ copia.jpg);
   width: 300px;
   height: 210px;
-  background-repeat: no-repeat;
   margin-top: 8px;
   }
 
@@ -432,58 +431,193 @@ align-items: center;
   height: 16px;
   padding-right: 8px;
 }
-@media only screen and (min-width:768px) and (max-width: 1024px) {
-
-  /* body {
-    display: none;
-  } */
-  .flex-container-one {
+@media only screen and (min-width:1025px) and (max-width: 1220px) {
+  .flex-container-one__items2 {
     width: 100%;
-    height: 297px;
-
+    display: flex;
+    height: max-content;
   }
-  .pitems2,.desarrollo,.equipo {
-    font-size: 20px;
-    margin-bottom: 12px;
+  .cajaitems2 {
+    width: 50%;
   }
-  .pitems2 {
-    margin-top: 30px !important;
+  .equipo {
+    font-size: 30px;
   }
-  
-  input.contactar {
-    padding: 5px;
-   height: 25px;
-   
+  .cajaitems2-2 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    
   }
   .telefono1 {
-    position: relative;
-    right: 60px;
-    top: 40px;
-    width: 300px;
+    
+    display: flex;
+    width: 400px;
+    height: 200px;
+    justify-content: center;
+    align-content: center;
   }
   .grid-container-two {
     width: 100%;
+    display: flex;
+  }
+  .grid-container-two__pt1 {
+    width: 50%;
+    text-align: center;
+  }
+  .grid-container-two__pt2 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
   }
   .grid-container-two__pt2>img {
-    position: relative;
-    left: 30px;
+    width: 230px;
+    height: 53px;
+  }
+  iframe {
+    width: 320px;
+    height: 240px;
+  }
+  .caja-form {
+    width: 100%;
+    display: flex;
+  }
+  .caja-form-1 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .form-1__texto {
+    display: flex;
+    justify-content: center;
+    align-content:center ;
+    height: 100%;
+  }
+  .form-1__texto>p {
+    position: inherit;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+  }
+  .form-1__img {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    height: 100%;
+  }
+  .engranaje {
+    position: inherit;
+    width: 116px;
+    height: 94px;
+  }
+  .caja-form-2 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .footer {
+    width: 100%;
+    display: flex;
+  }
+  .caja-footer1 {
+    width: 50%;  
+  }
+  .caja-footer2 {
+    width: 50%;
+    display: flex;
+  }
+  
+}
+
+
+
+@media only screen and (min-width:768px) and (max-width: 1024px) {
+  .flex-container-one__items2 {
+    width: 100%;
+    display: flex;
+    height: max-content;
+    background-image: url(img/lineas-de-cogido.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+  .cajaitems2 {
+    width: 50%;
+    margin: 30px;
+  }
+  .equipo {
+    font-size: 24px;
+  }
+  .desarrollo {
+    font-size: 24px;
+  }
+  p.pitems2 {
+    margin-top: 0px;
+  }
+  .cajaitems2-2 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    align-items: flex-end;
+    
+  }
+  .telefono1 {
+    width: 285px;
+    height: 140px;
+  }
+
+  .grid-container-two {
+    width: 100%;
+    display: flex;
+  }
+  .grid-container-two__pt1 {
+  width: 50%;
+  
+}
+.grid-container-two__pt1>p {
+  font-size: 18px;
+  text-align: center;
+  }
+  .grid-container-two__pt2 {
+   width: 50%;
+   display: flex;
+   justify-content: center;
+  }
+  .grid-container-two__pt2>img {
+    width: 230px;
+    height: 53px;
   }
   .grid-container-three {
     width: 100%;
+    display: flex;
   }
-  .caja-three__parrafo {
-    position: relative;
-    right: 50px;
+  .grid-container-three__pt1 {
+    width: 50%;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding: 10px;
   }
+  .grid-container-three__pt2 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+   }
+   .caja-three__parrafo {
+    margin-top: 30px;
+   }
   .img-three_pt2 {
-    position: relative;
-    right: 50px;
+    margin-left: 0px;
+    margin-top: 35px;
   }
   iframe {
-    position: relative;
-    right: 70px;
-    top: 20px;
+    padding: 10px;
   }
+  
   .caja-form {
     width: 100%;
   }
@@ -497,49 +631,97 @@ align-items: center;
   }
   footer {
     width: 100%;
+    display: flex;
+    
   }
 
   .caja-footer1 {
-    position: relative;
-    right: 90px;
+    width: 50%;
+
   } 
+  .fedesoft {
+    position: inherit;
+    width: 120px;
+    height: 25px;
+    padding-top:70px;
+  }
+  .cocolombia {
+    position: inherit;
+    width: 53px;
+    height: 53px;
+    padding-top:70px;
+  }
+  .somos {
+    position: inherit;
+    width: 80px;
+    height: 25px;
+    padding-top:70px;
+  }
   .caja-footer2 {
-    position: relative;
-    left: 15px;
-    padding-left: 50px;
-    width: max-content;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .caja-footer2>p {
+    font-size: 12px;
   } 
+  .infofactor {
+    width: 140px;
+    height: 30px;
+    position: inherit;
+  }
 }
 @media only screen and (min-width:572px) and (max-width: 767px) {
-
-  .flex-container-one {
+  
+  .flex-container-one__items2 {
     width: 100%;
+    display: flex;
+    background-image: url(img/lineas-de-cogido.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
     background-size: cover;
-    height: 300px;
+  }
+  .cajaitems2 {
+    width: 50%;
+  padding: 30px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    
   }
   .equipo {
-    font-size: 18px;
+    font-size: 16px;
   }
   .desarrollo {
-    font-size: 18px;
+    font-size: 16px;
   }
   .pitems2 {
     font-size: 16px;
   }
   p.pitems2 {
-    margin-top: 10px;
+    margin-top: 0px;
+    margin-left: 0px;
+    text-align: center;
   }
   .contactar {
     font-size: 12px;
     padding: 0px 8px;
     margin: 1px;
     height: 30px;
+    position: inherit;
+  }
+  .cajaitems2-2 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    align-items: flex-end;
   }
   .telefono1 {
-    position: relative;
-    top: 86px;
-    right: 100px;
     width: 220px;
+    height: 100px;
+    margin-left: 0px;
   }
   .flex-container-one__items2 {
     height: max-content;
@@ -553,10 +735,13 @@ align-items: center;
     display: flex;
     width: 100%;
     justify-content: center;
+    margin: 0px;
+    box-sizing: border-box;
   }
   .grid-container-two__pt1>p {
     font-size: 16px;
-    margin: 0px 20px;
+    padding: 0px 20px;
+    box-sizing: border-box;
 
   }
   .grid-container-two__pt2 {
@@ -565,9 +750,12 @@ align-items: center;
     margin-bottom: 0px;
     margin-top: 0px;
     padding: 8px 0px; 
-    background: rgb(56, 166, 252);
+    background: rgb(34, 176, 233);
     display: flex;
     justify-content: center;
+  }
+  .grid-container-two__pt2>img {
+    width: 180px;
   }
   .grid-container-three {
     width: 100%;
@@ -610,10 +798,11 @@ align-items: center;
  }
  .caja-form-1 {
   width: 100%; 
-  margin: 40px 10px;
+  padding: 40px 10px;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  box-sizing: border-box;
   
 }
 .form-1__img {
@@ -666,8 +855,250 @@ footer {
 .caja-footer2 {
   width: 100%;
   position: inherit;
-  margin: 20px;
+  padding: 20px;
+  box-sizing: border-box;
   justify-content: space-around;
 }
-
+.infofactor {
+  width: 150px;
+  height: 35px;
+  position: inherit;
 }
+.contacto1>p {
+  font-size: 12px;
+}
+.contacto2>p {
+  font-size: 12px;
+}
+}
+
+@media only screen and (min-width:320px) and (max-width: 571px) {
+
+  .flex-container-one {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
+  }
+  .imgitems1 {
+    width: 150px;
+    height: 50px;
+  }
+  .flex-container-one__items2 {
+    display: flex;
+    flex-direction: column;
+    background-image: url(img/código-de-la-escritura-de-java-en-la-pantalla-negra-96561817.jpg);
+    object-fit: cover;
+    width: 100%;
+    height: max-content;
+  }
+  .pitems2,.equipo,.desarrollo {
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    margin-left:7px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  p.pitems2 {
+    margin-top: 10px;
+  }
+  .cajaitems2 {
+    width: 100%;
+    word-break:break-all
+    height: max-content;
+    text-align: center;
+  }
+  .cajaitems2-2 {
+    width: 100%;
+    
+  }
+  .contactar {
+    position: inherit;
+    padding: 2px;
+    font-size: 13px;
+    width: 120px;
+    height: 22px;
+  }
+  .telefono1 {
+    width: 200px;
+    margin: auto;
+    padding: 20px;
+    padding-bottom: 0px;
+  }
+  .grid-container-two {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .grid-container-two__pt1 {
+    width: 100%;
+    display: flex;
+    height: max-content;
+    margin: auto;
+  
+    
+  }
+  .grid-container-two__pt1>p {
+    font-size: 16px;
+    width: auto;
+  text-align: center;
+   margin: 20px;
+    width: 100%;
+  }
+  .grid-container-two__pt2 {
+    width: 100%;
+   display: flex;
+   height: max-content;
+   justify-content: center;
+   padding: 20px;
+   box-sizing: border-box;
+   margin: 0px;
+  }
+  .grid-container-two__pt2>img {
+    width: 180px;
+    text-align: center;
+  }
+  .grid-container-three {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .grid-container-three__pt1 {
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  .img-three_pt1 {
+    margin: 20px 0px;
+    padding-left: 10px;
+  }
+  .caja-three__pt1 {
+    white-space: break-word;
+    padding: 5px;
+  }
+  .caja-three__pt1>p, li {
+    font-size: 12px;
+    justify-content: center;
+  }
+  .grid-container-three__pt2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .img-three_pt2 {
+  margin: 0px;
+  padding: 20px;
+  }
+  .caja-three__parrafo {
+    margin:0px;
+    padding: 20px;
+  }
+  iframe {
+    width: 240px;
+    height: 200px;
+  }
+  .caja-form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .caja-form-1 {
+    width:100%;
+    height: max-content;
+    justify-content: center;
+  }
+  .engranaje {
+    width: 80px;
+    position: inherit;
+    display: none;
+  }
+  .form-1__texto>p {
+    position: inherit;
+    font-size: 18px;
+    margin: auto;
+  }
+  .requerimiento {
+    font-size: 18px;
+  }
+  .form-1__texto {
+    width: max-content;
+    padding: 5px;
+   }
+  .caja-form-2 {
+    width: 100%;
+    height: max-content;
+    justify-content: center;
+  }
+  .contenedor-form {
+    width: 80%;
+    height: 100%;
+    box-sizing: content-box;
+    justify-content: center;
+  }
+  .caja-tabla {
+    display: flex;
+    justify-content: center;
+  }
+  input[type="text"] {
+    width: 280px;
+  }
+  input[type="number"] {
+    width: 280px;
+  }
+  .email {
+    width: 280px;
+  }
+  footer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .caja-footer1 {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .cocolombia {
+    position: inherit;
+    padding: 20px;
+    width: 50px;
+    padding-right: 0px;
+    box-sizing: border-box;
+  }
+  .fedesoft {
+    position: inherit;
+    padding: 20px;
+    width: 118px !important;
+    padding-right: 0px;
+  }
+  .somos {
+    position: inherit;
+    padding: 20px;
+    padding-right: 0px;
+   
+    
+  }
+  .caja-footer2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+ 
+  .infofactor {
+    width: 130px;
+    padding: 25px;
+    margin-left: 50px;
+    padding-right: 0px;
+  }
+ .contacto1>p {
+  font-size: 13px;
+ }
+  .contacto2>p {
+    font-size: 13px;
+  }
+
+ }
